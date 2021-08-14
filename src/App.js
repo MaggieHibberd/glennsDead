@@ -30,8 +30,9 @@ console.log(diffDays + " days");
 >
 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
     <h1> Glenn has been dead...{diffDays} days</h1>
-    
+
 </div>
+ 
 </div>
       {/* <div style={{ backgroundImage:`url(require(${background}))`}}>
       GLEN IS DEAD
