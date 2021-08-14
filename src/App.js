@@ -1,22 +1,47 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import background from "./img/glenn.png";
 import './App.css';
 
 function App() {
+
+const currentDate = new Date();
+const currentDayOfMonth = currentDate.getDate();
+const currentMonth = currentDate.getMonth(); // Be careful! January is 0, not 1
+const currentYear = currentDate.getFullYear();
+const dateString = currentDayOfMonth + "/" + (currentMonth + 1) + "/" + currentYear;
+
+const today = new Date();
+const date1 = new Date('10/23/2016');
+const date2 = new Date('08/14/2021');
+const date3 = new Date();
+const diffTime = Math.abs(date3 - date1);
+const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+console.log(diffTime + " milliseconds");
+console.log(diffDays + " days");
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div
+  style={{
+    width:1300,
+    height:780, 
+    background: `url('${process.env.PUBLIC_URL}./img/glenn.png')`
+  }}
+>
+<div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
+    <h1> Glenn has been dead...{diffDays} days</h1>
+    
+</div>
+</div>
+      {/* <div style={{ backgroundImage:`url(require(${background}))`}}>
+      GLEN IS DEAD
+    </div> */}
+        {/* <img src={glenn} className="glenn" alt="glenn" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        </p> */}
+        
+        
       </header>
     </div>
   );
