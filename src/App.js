@@ -25,7 +25,7 @@ console.log(diffDays + " days");
   style={{
     height:'auto',width:'100%',
     background: `url('${process.env.PUBLIC_URL}./img/glenn.png')`,
-    width:'100%'
+    height:'auto',width:'100%'
   }}
 
 >
