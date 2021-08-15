@@ -24,10 +24,10 @@ console.log(diffDays + " days");
       <div
   style={{
     height:'auto',width:'100%',
-    background: `url('${process.env.PUBLIC_URL}./img/glenn.png')`
+    background: `url('${process.env.PUBLIC_URL}./img/glenn.png')`,
+    width:'100%'
   }}
-  // style="max-width:100%;height:auto;"
-  //  src="./img/glenn.png"
+
 >
 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
     <h1> Glenn has been dead...{diffDays} days</h1>
