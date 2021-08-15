@@ -23,10 +23,11 @@ console.log(diffDays + " days");
       <header className="App-header">
       <div
   style={{
-    width:1300,
-    height:780, 
+    height:'auto',width:'100%',
     background: `url('${process.env.PUBLIC_URL}./img/glenn.png')`
   }}
+  // style="max-width:100%;height:auto;"
+  //  src="./img/glenn.png"
 >
 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
     <h1> Glenn has been dead...{diffDays} days</h1>
