@@ -20,8 +20,8 @@ function App() {
           window.removeEventListener('resize', handleWindowResize);
       }
   }, []);
-const styleObj = {
-    fontSize: 50,
+  const styleObj = {
+    fontSize: 14,
     color: "red",
     
     paddingTop: "100px",
@@ -56,7 +56,7 @@ console.log(diffDays + " days");
 >
 <div className="App" style={{backgroundImage: `url(${imageUrl})` }}>
             <div className="App-content">
-                <h1 style={styleObj}>Glenn has been dead for...{diffDays} days</h1>
+                <h1 style={{color: 'red'}}>Glenn has been dead for...{diffDays} days</h1>
                 
             </div>
 </div>

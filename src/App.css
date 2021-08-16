@@ -20,7 +20,8 @@
 
   .App-content {
       align-items: flex;
-      justify-content: center;
+      justify-content: middle;
+      font-size: calc(10px + 2vmin);
   }
 }
 
