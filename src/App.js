@@ -1,4 +1,4 @@
-
+// import logo from './logo.svg';
 import React, { useState, useEffect } from 'react';
 import background from "./img/glenn.png";
 import desktopImage from './img/glenn.png';
@@ -49,11 +49,10 @@ console.log(diffDays + " days");
 
 >
 <div className="App" style={{backgroundImage: `url(${imageUrl})` }}>
-            {/* <div className="App-content"> */}
-            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+            <div className="App-content">
                 <h1>Glenn has been dead for...{diffDays} days</h1>
-                </div>
-            {/* </div> */}
+                
+            </div>
 </div>
 
 {/* <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>

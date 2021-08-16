@@ -20,7 +20,7 @@
 
   .App-content {
       align-items: flex-center;
-      justify-content: start;
+      justify-content: centre;
       line-height: 50px;
   color: pink;
   font-weight: bold;
