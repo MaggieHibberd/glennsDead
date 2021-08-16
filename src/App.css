@@ -1,5 +1,5 @@
 .App {
-  height: 110vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding: 40px;
 }
 
 @media (min-width: 650px ) {
@@ -19,13 +20,8 @@
   }
 
   .App-content {
-      align-items: flex-center;
-      justify-content: centre;
-      line-height: 50px;
-  color: pink;
-  font-weight: bold;
-  font-size: 1.5em;
-       
+      align-items: flex-end;
+      justify-content: center;
   }
 }
 
