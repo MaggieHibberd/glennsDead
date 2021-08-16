@@ -13,6 +13,17 @@
   align-items: center; 
 
 }
+#sval {
+  border-width: medium;
+  border: 0.5rem solid rgb(27, 25, 25);
+  padding: 0.5rem; 
+  font: bold 1rem sans-serif; 
+  /* border-radius: 10px; */
+  
+  /* margin: 0.5rem;
+  
+  /* outline-offset: 0.5rem; */
+}
 
 
 @media (min-width: 650px ) {
