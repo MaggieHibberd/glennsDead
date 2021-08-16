@@ -56,8 +56,9 @@ console.log(diffDays + " days");
 >
 <div className="App" style={{backgroundImage: `url(${imageUrl})` }}>
             <div className="App-content">
-                <h1 style={{color: 'red'}}>Glenn has been dead for...{diffDays} days</h1>
-                
+            <p id = "sval">
+                <h1 style={{color: 'firebrick'}}>Glenn has been dead for...{diffDays} days</h1>
+                </p>
             </div>
 </div>
 

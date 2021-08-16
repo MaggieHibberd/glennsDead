@@ -11,7 +11,9 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center; 
+
 }
+
 
 @media (min-width: 650px ) {
   .App {
@@ -22,6 +24,18 @@
       align-items: flex;
       justify-content: middle;
       font-size: calc(10px + 2vmin);
+    
+  }
+  #sval {
+    border-width: medium;
+    border: 0.5rem solid rgb(27, 25, 25);
+    padding: 0.5rem; 
+    font: bold 1rem sans-serif; 
+    /* border-radius: 10px; */
+    
+    /* margin: 0.5rem;
+    
+    /* outline-offset: 0.5rem; */
   }
 }
 
