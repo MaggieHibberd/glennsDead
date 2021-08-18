@@ -1,7 +1,7 @@
 
-# Glenns Dead
+Glenns Dead
 ==============
-For all of us Walking Dead nerds the day Glenn died was particularly painful, I created this little app to show the number of days us Glenn mega fans have been in mourning…lest we forget!
+For all of us Walking Dead nerds the day Glenn died was particularly painful, I created this little app to show the number of days us mega fans have been in mourning…lest we forget!
 
 # Join the GlennsDead Gang: https://glennsdead.herokuapp.com/
 
