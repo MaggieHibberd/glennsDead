@@ -1,5 +1,5 @@
 
-Glenns Dead
+Glenn is Dead
 ==============
 For all of us Walking Dead nerds the day Glenn died was particularly painful, I created this little app to show the number of days us mega fans have been in mourning…lest we forget!
 
